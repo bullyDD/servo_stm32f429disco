@@ -1,23 +1,26 @@
 # servo_stm32f429disco
 Interface package to drive servo 9G with Ada using stm32f429 discovery board.\
-As mentioned in the datasheet, Servo can rotate approximately 180 degrees (90 in each direction), and works just like the standard kinds but smaller.\
+As mentioned in the datasheet, Servo can rotate approximately 180 degrees (90 in each direction), and works just like the standard kinds but smaller.
+
 
 ## Servo specifications
 
-_Weight: 9g
-_Dimension: 22.2 x 11.8 x 31 mm approx
-_Stall torque: 1.8 Kgf.cm
-_Operating speed: 0.1 s/60 degree
-_Operating voltage: 4.8V (-5V)
-_Dead band width: 10 micro second
-_Temperature range: 0°c - 55°C. \
+_ Weight: 9g
+_ Dimension: 22.2 x 11.8 x 31 mm approx
+_ Stall torque: 1.8 Kgf.cm
+_ Operating speed: 0.1 s/60 degree
+_ Operating voltage: 4.8V (-5V)
+_ Dead band width: 10 micro second
+_ Temperature range: 0°c - 55°C.
 
-**How to drive it ?**
-\
+
+**How to drive it ?**\
+
 >Position 0° (1.5ms pulse) is middle.\
 >Position 90° (2.0 ms pulse) is all the way to the right.\
 >Position -90° (1.0 ms pulse) is all the way to the left.\
-\
+
+
 
 **Servo 9G**\
 \
@@ -69,5 +72,5 @@ Now you can run the code on stm32f429 discovery board by running:
 
     openocd -f /usr/local/share/openocd/scripts/board/stm32f429disc1.cfg -c 'program bin/servo_stm32f429disco verify reset exit'
 
-As result you should see servo perform sweep from 90° to -90° (each 45°). :-)
+As result you should see servo perform **sweep from 90° to -90°** (each 45°). :-)
 
