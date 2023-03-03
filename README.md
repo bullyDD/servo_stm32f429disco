@@ -15,7 +15,7 @@ As mentioned in the datasheet, Servo can rotate approximately 180 degrees (90 in
 
 
 **How to drive it ?**\
-\
+
 
 >Position 0° (1.5ms pulse) is middle.\
 >Position 90° (2.0 ms pulse) is all the way to the right.\
