@@ -26,8 +26,7 @@ procedure Servo_Stm32f429disco is
 
    Period : constant Time_Span := Milliseconds (1000);
    Next   : Time := Get_Start_Time + Period;
-   Angles : Array (1..5) := (2000, 1750, 1500, 1250, 1000);
-   -- ^Duty cycles from 90°, 45°, 0°, -45° and -90°
+   
 begin
    --  LCD Params --
    Set_Orientation (To => Landscape);
