@@ -5,13 +5,13 @@ As mentioned in the datasheet, Servo can rotate approximately 180 degrees (90 in
 
 ## Servo specifications
 
-_ Weight: 9g
-_ Dimension: 22.2 x 11.8 x 31 mm approx
-_ Stall torque: 1.8 Kgf.cm
-_ Operating speed: 0.1 s/60 degree
-_ Operating voltage: 4.8V (-5V)
-_ Dead band width: 10 micro second
-_ Temperature range: 0°c - 55°C.
+* Weight: 9g
+* Dimension: 22.2 x 11.8 x 31 mm approx
+* Stall torque: 1.8 Kgf.cm
+* Operating speed: 0.1 s/60 degree
+* Operating voltage: 4.8V (-5V)
+* Dead band width: 10 micro second
+* Temperature range: 0°c - 55°C.
 
 
 **How to drive it ?**\
